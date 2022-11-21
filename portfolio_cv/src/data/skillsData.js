@@ -8,7 +8,7 @@
     "Git",
     "Bootstrap",
     "Microsoft Office",
-    "Angular2+"
+    "Angular"
   
 ]
 
