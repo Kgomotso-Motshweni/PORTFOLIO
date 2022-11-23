@@ -152,11 +152,11 @@ export const redThemeLight = {
     tertiary80: '#212121cc',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
-    aboutimg1: redThemeboy,
+    aboutimg1: blueThemeboy,
     aboutimg2: redThemegirl,
-    eduimg: eduRed,
+    eduimg: eduBlue,
     expimg: expRed,
-    contactsimg: contactsRed
+    contactsimg: contactsBlue
 }
 export const redThemeDark = {
     type: 'dark',
