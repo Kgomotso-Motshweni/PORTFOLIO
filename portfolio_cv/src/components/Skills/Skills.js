@@ -23,7 +23,7 @@ function Skills() {
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">
-                    <Marquee 
+                    <Marquee className='marguee'
                         gradient={false} 
                         speed={80} 
                         pauseOnHover={true}
