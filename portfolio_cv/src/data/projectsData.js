@@ -6,7 +6,9 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import simpleCrud from '../assets/jpg/simpleCrud.png'
+import socialApp from '../assets/jpg/socialapp.png'
+import wizerentalz from '../assets/jpg/wizeRental.png'
 
 export const projectsData = [
     
@@ -16,8 +18,8 @@ export const projectsData = [
         projectDesc: 'It is a simple CRUD web application with .',
         tags: ['HTML', 'CSS', 'Typescript','Nodejs'],
         code: 'https://github.com/Kgomotso-Motshweni/Simple-CRUD.git',
-        demo: 'https://personal-iota-flame.vercel.app/',
-        image: 'https://i.ibb.co/HrWfTyr/Marriott.png'
+        // demo: 'https://personal-iota-flame.vercel.app/',
+        image: `${simpleCrud}`
     },
     {
         id: 3,
@@ -25,17 +27,17 @@ export const projectsData = [
         projectDesc: 'Agoda is one of the world fastest growing online travel booking platforms. From its beginnings as an e-commerce start-up based in Singapore in 2005.',
         tags: ['Taiwindcss','HTML','Angular','Typescript','Heroku','Nodejs'],
         code: 'https://github.com/Kgomotso-Motshweni/Socialite.git',
-        demo: 'https://agoda-clone.vercel.app/',
-        image: 'https://i.ibb.co/5TJzyWQ/AGODA-CLONE.jpg'
+        // demo: 'https://agoda-clone.vercel.app/',
+        image: `${socialApp}`
     },
     {
         id: 4,
         projectName: 'Wize Rentalz',
         projectDesc: 'An app is responsible for helping Low-income people find accommodation and landlords advertise their properties. A landlord gets to post their available property for rental e.g “Backroom". All tenants will see the available property.',
         tags: ['Openweather API', 'JavaScript', 'HTML', 'CSS'],
-        code: 'https://github.com/Kgomotso-Motshweni/wizeRental.git',
-        demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
-        image: 'https://i.ibb.co/C9hZWVN/Weather-app.png'
+        // code: 'https://github.com/Kgomotso-Motshweni/wizeRental.git',
+        // demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
+        image: `${wizerentalz}`
     },
     {
         id: 5,
@@ -43,7 +45,7 @@ export const projectsData = [
         projectDesc: 'This app is a portfolio of my work as well as the my cariculumn vitae',
         tags: ['Openweather API', 'JavaScript', 'HTML', 'CSS'],
         code: 'https://github.com/Kgomotso-Motshweni/PORTFOLIO.git',
-        demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
+        // demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
         image: 'https://i.ibb.co/C9hZWVN/Weather-app.png'
     },
    
