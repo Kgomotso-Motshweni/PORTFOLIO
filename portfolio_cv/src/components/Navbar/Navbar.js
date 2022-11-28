@@ -32,7 +32,7 @@ function Navbar() {
     const useStyles = makeStyles((t) => ({
         navMenu: {
             fontSize: '2.5rem',
-            color: theme.tertiary,
+            color: theme.primary400,
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
@@ -133,7 +133,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.secondary }}>
+                <h1 style={{ color: theme.secondary}}>
                     {shortname(headerData.name)}
                 </h1>
 
@@ -254,14 +254,14 @@ function Navbar() {
                                 spy='true'
                                 duration={2000}
                             >
-                                <div className={classes.drawerItem}>
+                                {/* <div className={classes.drawerItem}>
                                     <FaFolderOpen
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
                                         Blog
                                     </span>
-                                </div>
+                                </div> */}
                             </NavLink>
                         </Fade>
 

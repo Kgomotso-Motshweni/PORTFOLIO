@@ -51,10 +51,11 @@ export const greenThemeDark = {
     expimg: expGreen,
     contactsimg: contactsGreen
 }
+
 export const bwThemeLight = {
     type: 'light',
     primary: '#000000',
-    primary400: '#000000',
+    primary400: '#ffffff',
     primary600: '#000000',
     primary80: '#000000cc',
     primary50: '#00000080',
@@ -63,7 +64,7 @@ export const bwThemeLight = {
     secondary70: '#EAEAEAb3',
     secondary50: '#EAEAEA80',
     tertiary: '#212121',
-    tertiary80: '#212121cc',
+    tertiary80: '#000000',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
     aboutimg1: bwThemeboy,
@@ -96,8 +97,8 @@ export const bwThemeDark = {
 
 export const blueThemeLight = {
     type: 'light',
-    primary: '#545fc4',
-    primary400: '#6e76c7',
+    primary: '#005798',
+    primary400: '#005798',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#545fc480',
@@ -109,16 +110,16 @@ export const blueThemeLight = {
     tertiary80: '#212121cc',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
-    aboutimg1: blueThemeboy,
+    aboutimg1: bwThemeboy,
     aboutimg2: blueThemegirl,
     eduimg: eduBlue,
     expimg: expBlue,
-    contactsimg: contactsBlue
+    contactsimg: contactsBlack
 }
 export const blueThemeDark = {
     type: 'dark',
     primary: '#005798',
-    primary400: '#6e76c7',
+    primary400: '#005798',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#1484d74d',
@@ -130,11 +131,11 @@ export const blueThemeDark = {
     tertiary80: '#eaeaeacc',
     tertiary70: '#eaeaeab3',
     tertiary50: '#eaeaea80',
-    aboutimg1: blueThemeboy,
+    aboutimg1: bwThemeboy,
     aboutimg2: blueThemegirl,
     eduimg: eduBlue,
     expimg: expBlue,
-    contactsimg: contactsBlue
+    contactsimg: contactsBlack
 }
 
 export const redThemeLight = {
@@ -152,11 +153,11 @@ export const redThemeLight = {
     tertiary80: '#212121cc',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
-    aboutimg1: blueThemeboy,
+    aboutimg1: bwThemeboy,
     aboutimg2: redThemegirl,
     eduimg: eduBlue,
     expimg: expRed,
-    contactsimg: contactsBlue
+    contactsimg: contactsBlack
 }
 export const redThemeDark = {
     type: 'dark',
@@ -177,7 +178,7 @@ export const redThemeDark = {
     aboutimg2: redThemegirl,
     eduimg: eduRed,
     expimg: expRed,
-    contactsimg: contactsRed
+    contactsimg: contactsBlack                                                              
 }
 
 export const orangeThemeLight = {

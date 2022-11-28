@@ -3,5 +3,5 @@ export const contactsData = {
     phone: '+27 660276916',
     address: '39 Barnes Road Johannesburg',
 
-    sheetAPI: 'https://sheetdb.io/api/v1/tt5b8x0x5sbmo'
+    sheetAPI: 'https://formsubmit.co/motshweni44@gmail.com'
 }

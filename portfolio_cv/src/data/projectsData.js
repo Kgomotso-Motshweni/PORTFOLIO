@@ -16,7 +16,7 @@ export const projectsData = [
         id: 2,
         projectName: 'Simple CRUD',
         projectDesc: 'It is a simple CRUD web application with .',
-        tags: ['HTML', 'CSS', 'Typescript','Nodejs'],
+        tags: ['HTML', 'CSS', 'Typescript','Nodejs','Angular2+'],
         code: 'https://github.com/Kgomotso-Motshweni/Simple-CRUD.git',
         // demo: 'https://personal-iota-flame.vercel.app/',
         image: `${simpleCrud}`
@@ -24,7 +24,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Social Media App',
-        projectDesc: 'Agoda is one of the world fastest growing online travel booking platforms. From its beginnings as an e-commerce start-up based in Singapore in 2005.',
+        projectDesc: 'Social Media App called socialite is a social media app that allow users to follow each other and also post news feed and profiles on the platform ',
         tags: ['Taiwindcss','HTML','Angular','Typescript','Heroku','Nodejs'],
         code: 'https://github.com/Kgomotso-Motshweni/Socialite.git',
         // demo: 'https://agoda-clone.vercel.app/',
@@ -34,7 +34,7 @@ export const projectsData = [
         id: 4,
         projectName: 'Wize Rentalz',
         projectDesc: 'An app is responsible for helping Low-income people find accommodation and landlords advertise their properties. A landlord gets to post their available property for rental e.g “Backroom". All tenants will see the available property.',
-        tags: ['Openweather API', 'JavaScript', 'HTML', 'CSS'],
+        tags: ['HTML', 'CSS', 'Typescript','Nodejs','Angular2+'],
         // code: 'https://github.com/Kgomotso-Motshweni/wizeRental.git',
         // demo: 'https://webdeveshverma.github.io/Check-Weather-Appliction-/',
         image: `${wizerentalz}`
