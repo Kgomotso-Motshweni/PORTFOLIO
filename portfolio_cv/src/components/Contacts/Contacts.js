@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='Kgomotso Motshweni'
+                                    placeholder='whats your name?'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='Motshwenicse@gmail.com'
+                                    placeholder='Enter your email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -353,7 +353,7 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )} */}
-                            {socialsData.medium && (
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,7 +362,7 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
+                            )} */}
                             
                             {/* {socialsData.blogger && (
                                 <a
